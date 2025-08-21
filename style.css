@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #FF4111;
+    --secondary-color: #2C3E50;
+    --accent-color: #3498DB;
+    --text-color: #2C3E50;
+    --light-gray: #F8F9FA;
+    --border-color: #E9ECEF;
+    --white-color: #FFFFFF;
+    --hover-btn: rgba(255, 255, 255, 0.1);
+    --outraCor: #345345;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--text-color);
+    background-color: var(--light-gray);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--white-color);
+    padding: 16px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+h1 {
+    font-size: 32px;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.fa-bolt {
+    color: var(--primary-color);
+    font-size: 32px;
+}
+
+.container-busca {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 32px;
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    background-color: var(--light-gray);
+    border-radius: 24px;
+}
+
+.container-busca input {
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--light-gray);
+    padding: 8px;
+    font-size: 16px;
+}
+
+.fa-magnifying-glass {
+    color: var(--primary-color);
+}
+
+.container-categorias {
+    display: flex;
+    justify-content: center;
+    background-color: var(--secondary-color);
+}
+
+.container-categorias nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 100%;
+    max-width: 1200px;
+    padding: 8px 32px;
+}
+
+.botao-categorias {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    border: none;
+    border-radius: 24px;
+    color: var(--white-color);
+    background: none;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.botao-categorias:hover {
+    background-color: var(--hover-btn);
+}
+
+.botao-categorias.ativo {
+    background-color: var(--primary-color);
+}
+
+.secao-hero {
+    color: var(--white-color);
+    text-align: center;
+    padding: 48px 32px;
+    background: #FF4111;
+    background: linear-gradient(131deg, rgba(255, 65, 17, 1) 29%, rgba(52, 152, 219, 1) 79%);
+}
+
+footer {
+    background-color: var(--secondary-color);
+    color: var(--white-color);
+    text-align: center;
+    padding: 32px;
+}
