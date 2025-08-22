@@ -13,7 +13,7 @@
     --border-color: #E9ECEF;
     --white-color: #FFFFFF;
     --hover-btn: rgba(255, 255, 255, 0.1);
-    --outraCor: #345345;
+    --outraCor: #000;
 }
 
 body {
@@ -112,8 +112,8 @@ h1 {
     color: var(--white-color);
     text-align: center;
     padding: 48px 32px;
-    background: #FF4111;
-    background: linear-gradient(131deg, rgba(255, 65, 17, 1) 29%, rgba(52, 152, 219, 1) 79%);
+    background: var(--outraCor);
+    background: linear-gradient(150deg, rgba(0, 0, 0, 1) 44%, rgba(255, 255, 255, 1) 100%);
 }
 
 footer {
@@ -142,6 +142,7 @@ footer {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     cursor: pointer;
     overflow: hidden;
+    transition: all 0.5s ease;
 }
 
 .cartao-produto:hover {
